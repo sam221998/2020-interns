@@ -44,7 +44,7 @@ x=date1
 y=rupees
 plt.xlabel('Datewise Currency Exchange jan 2019')
 plt.ylabel('Exchange Rate')
-plt.title('Indian Currency change by 1 Euro')
+#plt.title('Indian Currency change by 1 Euro')
 plt.plot(x,y)
 plt.plot(x,y,'ro')
 plt.show()
