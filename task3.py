@@ -50,7 +50,7 @@ y=rupees
 z=gbp
 plt.xlabel('Datewise Currency Exchange jan 2019')
 plt.ylabel('Exchange Rate')
-plt.title('INR and GBP  exchange by 1 Euro')
+plt.title('INR and GBP  exchange by 1 Euro and show the current rate of inr and gbp')
 plt.plot(x,y,label="INR")
 plt.plot(x,y,'ro')
 plt.plot(x,z,label="GBP")
